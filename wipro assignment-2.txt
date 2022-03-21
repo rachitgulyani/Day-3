@@ -1,0 +1,61 @@
+1.Write a program to create a class Vehicle with the following
+ - attributes :
+    Regno, brand, price, mileage
+ - methods :
+    i. constructor to initialize the vehicles
+   ii. display function to display the details of the vehicles
+  iii. return only the price of the vehicle
+ - task :
+Create 2 vehicles, enter the details. Display the vehicle with lowest price and display the vehicle with best mileage.
+
+2.Create a class named Movie that can be used with your video rental business. The Movie class should track the Motion Picture Association of America (MPAA) rating (e.g., Rated G, PG-13, R), ID Number, and movie title with appropriate accessor and mutator methods. Also create an equals() method that overrides Object’s equals() method, where two movies are equal if their ID number is identical. Next, create three additional classes named Action, Comedy, and Drama that are derived from Movie.
+Each of these movies will have a method named calcLateFees that takes as input the number of days a movie is late and returns the late fee for that movie. The default late fee is $2/day. Action movies have a late fee of $3/day, comedies are $2.50/day, and dramas are $2/day. Test your classes from a main method.
+
+3. Write a program to create a class Book with the following data members: isbn, title and price. Inherit the class Book to two derived classes : Magazine and Novel with the following data members:
+Magazine:
+   type
+Novel :
+   author
+Populate the details using constructors.
+Create a magazine and Novel and display the details.
+
+4.Write a program to create an Employee class with the following attributes:
+Empno, ename, address, contactNo.
+Inherit the class Employee to Manager class with the following attributes:
+Dept,Number-of-reportees
+Create 5 employees and 2 managers. Display all the details of employees and managers.
+
+5.Write a program to create a class Company with the following attributes:
+CompId, name, HO, CEO
+Inherit the class Company to BranchOffices with the following details:
+BrId, location,dept
+Create 5 branches of the company and display the details.
+
+6.Create a class Car which contains members speed, noOfGear. The class has a method drive() which is responsible to provide starting speed and noOfGears to a Car.  Implement display() method which will display all attributes of Car class.
+The class SportCar is derived from the class Car which adds new features AirBallonType. When this method is invoked, initial speed and gear status must be displayed on console.  Override the display method which display all attribute of the SportCar. Make use of super class display() method.
+
+7.Define a class named Payment that contains a member variable of type double that stores the amount of the payment and appropriate accessor and mutator methods. Also create a method named paymentDetails that outputs an English sentence to describe the amount of the payment.
+Next, define a class named CashPayment that is derived from Payment. This class should redefine the paymentDetails method to indicate that the payment is in cash. Include appropriate constructor(s).
+Define a class named CreditCardPayment that is derived from Payment. This class should contain member variables for the name on the card, expiration date, and credit card number. Include appropriate constructor(s). Finally, redefine the paymentDetails method to include all credit card information in the printout.
+Create a main method that creates at least two CashPayment and two
+CreditCardPayment objects with different values and calls paymentDetails for each.
+
+8.There is an animal class which has the common characteristics of all animals. Dog, Horse, Cat are animals(sub-class). Each can shout, but each shout is different. Use polymorphism to create objects of same and using an animal variable, make each of the animals shout.
+
+9.Create an abstract class Instrument which is having the abstract function play. 
+Create three more sub classes from Instrument which is Piano, Flute, Guitar.
+Override the play method inside all three classes printing a message 
+“Piano is playing  tan tan tan tan  ”  for Piano class
+“Flute is playing  toot toot toot toot”  for Flute class
+“Guitar is playing  tin  tin  tin ”  for Guitar class 
+You must not allow the user to declare an object of Instrument class.
+Create an array of 10 Instruments.
+Assign different type of instrument to Instrument reference.
+Check for the polymorphic behavior of  play method.
+Use the instanceof operator to print that which object stored at which index of instrument array.
+
+10.Create an abstract class Compartment to represent a rail coach. Provide an abstract function notice in this class. Derive FirstClass, Ladies, General, Luggage classes from the compartment class. Override the notice function in each of them to print notice suitable to the type of the compartment.
+Create a class TestCompartment . Write main function to do the following:
+Declare an array of Compartment of size 10.
+Create a compartment of a type as decided by a randomly generated integer in the range 1 to 4.
+Check the polymorphic behavior of the notice method.
